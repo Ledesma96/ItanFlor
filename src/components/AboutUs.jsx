@@ -1,3 +1,4 @@
+import Whatsapp from "./Whatsapp"
 
 
 const AboutUs = () => {
@@ -14,7 +15,7 @@ const AboutUs = () => {
 ✨ Me apasionan los idiomas! Sé Italiano 🇮🇹, Español 🇪🇦, llevo años estudiando Inglés 🇬🇧 y el año pasado comencé con el Francés 🇫🇷!! <br></br>
 ✨ Todo forma un gran todo con el que puedo complementar nuestras clases!<br></br>
 
-Poseo cualidades que me permiten poder comunicarme claramente con mis alumnos, de todas partes del mundo, como América del norte, Suiza, Italia, España, Australia, América del sur (Chile, Argentina, Colombia, Uruguay, y más!).
+Poseo cualidades que me permiten poder comunicarme claramente con mis alumnos, de todas partes del mundo, como América del norte, Suiza, Italia, España, Australia, América del sur (Chile, Argentina, Colombia, Uruguay, y más!).<br></br>
 Ci vediamo a lezione!!! (Nos vemos en clase)
                 </p>
             </div>
@@ -106,6 +107,7 @@ Ci vediamo a lezione!!! (Nos vemos en clase)
                 </div>
             </div>
         </section>
+        <Whatsapp></Whatsapp>
     </div>
   )
 }

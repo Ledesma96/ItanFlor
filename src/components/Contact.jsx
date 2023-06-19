@@ -1,5 +1,7 @@
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import React, { useRef, useState } from 'react'
+import Whatsapp from './Whatsapp';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
   const form = useRef();
@@ -33,6 +35,22 @@ const Contact = () => {
         })
         setTimeout(() => {
           form.current.reset();
+          const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer)
+              toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'success',
+            title: 'Recibimos tu contacto correctamente'
+          })
         }, 1000)
         
       }
@@ -74,7 +92,7 @@ const Contact = () => {
         <section className="contact__section">
           <div className='contact__section__div'>
             <h1 className='contact__section__div__h1'>Información de contacto</h1>
-            <p className='contact__section__div__p'>Te dejamos nuestros datos para que te pongas en contacto con nosotros.¿Qué estás esperando?</p>
+            <p className='contact__section__div__p'>Te dejamos nuestros datos para que te pongas en contacto con nosotros. ¿Qué estás esperando?</p>
           </div>
           <span className='span'></span>
           <div className="contact__section__item">
@@ -102,10 +120,11 @@ const Contact = () => {
             </svg>
             <div className="contact__section__item__info">
               <h3 className='contact__section__item__info__h3'>WhatsApp</h3>
-              <p className='contact__section__item__info__p'>+5491138540082</p>
+              <p className='contact__section__item__info__p'>+54 9 11-3854-0082</p>
             </div>
           </div>
         </section>
+        <Whatsapp></Whatsapp>
     </div>
   )
 }

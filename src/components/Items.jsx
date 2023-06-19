@@ -18,7 +18,7 @@ const Items = () => {
             </div>
             <section  className='items__div__section'>
                 <h4 className="items__div__section__h4" >CLASES PERSONALIZADAS</h4>
-                <p className="items__div__section__p" >¿Ya te vas a Italia?¡Anotate en estas clases personalizadas! Vamos a tocar los temas <br></br> neurálgicos para que puedas defenderte en Italia, a nivel comprensión y producción!</p>
+                <p className="items__div__section__p" >¿Ya te vas a Italia? ¡Anotate en estas clases personalizadas! Vamos a tocar los temas <br></br> neurálgicos para que puedas defenderte en Italia, a nivel comprensión y producción!</p>
             </section>
         </div>
         <div className='items__div items__3'>
@@ -37,7 +37,7 @@ const Items = () => {
             </div>
             <section className='items__div__section'>
                 <h4 className="items__div__section__h4" >GRATIS CON LOS CURSOS</h4>
-                <p className="items__div__section__p" >Curso de pronunciación en Italiano, asistencia en redacción de mails a comunas y <br></br> de currículums vitae en Italiano y también apoyo en la lectura de mails en Italiano.
+                <p className="items__div__section__p" >Curso de pronunciación en Italiano, asistencia en redacción de mails a comunas y <br></br> de currículums vitae en Italiano, también apoyo en la lectura de mails en Italiano.
                 </p>
             </section>
         </div>

@@ -40,10 +40,23 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+/*whatsapp component*/
+.botton{
+  width: 50px;
+  position: fixed;
+  right: 2%;
+  z-index: 3;
+  bottom: 10%;
+}
  /*navbarmin component*/
+ .menu{
+  background-color: white;
+  margin-top: 7px;
+  margin-right: 10px;
+ }
  .navMin{
   width: 100%;
+  height: 55px;
   background-color: #003b03;
   display: flex;
   flex-direction: row-reverse;
@@ -114,6 +127,10 @@ button:focus-visible {
   transition: opacity 500ms;
 }
 
+.testimonios{
+  margin-top: 5%;
+}
+
 /*universal style*/
 .h3{
   font-size: 1.7rem;
@@ -122,12 +139,12 @@ button:focus-visible {
 
 /*home component*/
 .title{
-  font-size: 2.8rem;
-  margin-top: 5%;
+  font-size: 2.8rem;;
   margin-bottom: 2.5%;
   /* text-shadow: 2px 2px 4px #003b03; */
 }
 .title {
+  margin-top: 10%;
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: bold;
@@ -313,10 +330,11 @@ button:focus-visible {
   align-items: center;
 }
 .contact__section__div__p{
-  padding: 10px;
+  padding-top: 10px;
 }
 .contact__section__item{
-  width: 70%;
+  margin-bottom: 10px;
+  width: 60%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -586,6 +604,7 @@ button:focus-visible {
   width: 100%;
 }
 .footer__contenedor__sub__p{
+  margin-bottom: 0%;
   margin-left: 40px;
   width: 80%;
   text-align: start;
@@ -602,6 +621,9 @@ button:focus-visible {
   margin-bottom: 15px;
   margin-left: 40px;
   width:80% ;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
   background-color: rgb(255, 255, 255);
   height: 35px;
 }
@@ -609,6 +631,9 @@ button:focus-visible {
   color: #000;
   font-weight: 700;
   opacity: 0.5;
+}
+.footer__contenedor__sub__form__send::-ms-value{
+  color: #000;
 }
 .footer__contenedor__sub__form__button{
   margin-bottom: 15px;

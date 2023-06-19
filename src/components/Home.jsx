@@ -3,6 +3,7 @@ import Info from './Info'
 import Items from './Items'
 import Carrousel from './Carrousel'
 import { useState, useEffect } from 'react';
+import Whatsapp from './Whatsapp';
 
 const Home = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -33,6 +34,7 @@ const Home = () => {
     <Info></Info>
     <Items></Items>
     <Carrousel></Carrousel>
+    <Whatsapp></Whatsapp>
     </>
   )
 }

@@ -16,7 +16,7 @@ const Info = () => {
                     <svg className="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"  viewBox="0 0 16 16">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
                     </svg>
-                    <a className='caard__section__a' href="">Comenzar</a>
+                    <a className='caard__section__a' href="https://api.whatsapp.com/send?phone=5491138540082&text=Hola%20Flor!%20¿cómo%20estás?%20Estoy%20interesada/o%20en%20clases%20indivuduales..." target='blank'>Comenzar</a>
                 </section>
             </div>
             <div className='caard card2'>
@@ -29,7 +29,7 @@ const Info = () => {
                     <svg className="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"  viewBox="0 0 16 16">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
                     </svg>
-                    <a className='caard__section__a' href="">Ver mas</a>
+                    <a className='caard__section__a' href="https://api.whatsapp.com/send?phone=5491138540082&text=Hola%20Flor!%20¿cómo%20estás?%20Estoy%20interesada/o%20en%20clases%20grupales..." target='blank'>Comenzar</a>
                 </section>
             </div>
             <div className='caard card3'>
@@ -42,7 +42,7 @@ const Info = () => {
                     <svg className="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"  viewBox="0 0 16 16">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
                     </svg>
-                    <a className='caard__section__a' href="">Ver mas</a>
+                    <a className='caard__section__a' href="https://api.whatsapp.com/send?phone=5491138540082&text=Hola%20Flor!%20¿Cómo%20estás?%20Estoy%20interesada/o%20en%20clases%20de%20conversación..." target='blank'>Comenzar</a>
                 </section>
             </div>
         </main>

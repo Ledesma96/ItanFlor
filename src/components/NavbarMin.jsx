@@ -14,8 +14,8 @@ import { Link } from 'react-router-dom'
 const NavbarMin = () => {
   return (
     <div className='navMin'>
-        <Menu className="">
-            <MenuButton
+        <Menu >
+            <MenuButton className="menu"
                 as={IconButton}
                 aria-label='Options'
                 icon={<HamburgerIcon />}

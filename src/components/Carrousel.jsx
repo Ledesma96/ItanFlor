@@ -58,7 +58,7 @@ console.log(comments);
 
   return (
     <>
-      <h2>TESTIMONIOS DE ALUMNOS</h2>
+      <h2 className='testimonios'>TESTIMONIOS DE ALUMNOS</h2>
       <div className='contenedorCard' ref={scrollRef}>
         {comments.map((comment, index) => (
           <div key={index} className='caard'>
