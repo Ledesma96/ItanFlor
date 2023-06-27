@@ -21,7 +21,7 @@ const Info = () => {
             </div>
             <div className='caard card2'>
                 <div className='card__circularletters'>
-                    <img className='card__circularletters__image' src="/networking-equipo.jpg" alt="mujer sentada escribiendo con una laptop sobre la mesa"></img>
+                    <img className='card__circularletters__image' src="/networking-equipo.jpg" alt="grupo de tres cuatro amigos, dos de ellos sentados y dos parados, frente una laptop tomando una videoconferencia y sonriendo"></img>
                 </div>
                 <section className='caard__section'>
                     <h3 className='caard__section__h3 h3'>Clases grupales</h3>
@@ -34,7 +34,7 @@ const Info = () => {
             </div>
             <div className='caard card3'>
                 <div className='card__circularletters'>
-                    <img className='card__circularletters__image' src="/hombre-sonriente-guapo-joven-traje-casual-sentado-mesa-trabajando-computadora-portatil.jpg" alt="mujer sentada escribiendo con una laptop sobre la mesa"></img>
+                    <img className='card__circularletters__image' src="/hombre-sonriente-guapo-joven-traje-casual-sentado-mesa-trabajando-computadora-portatil.jpg" alt="Hombre con lentes sentado alzando las manos y sonriendo en una videoconferencia con una laptop"></img>
                 </div>
                 <section className='caard__section'>
                     <h3 className='caard__section__h3 h3'>Clases de conversación</h3>

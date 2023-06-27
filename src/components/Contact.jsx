@@ -2,6 +2,8 @@ import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import React, { useRef, useState } from 'react'
 import Whatsapp from './Whatsapp';
 import Swal from 'sweetalert2';
+import { Helmet } from 'react-helmet';
+
 
 const Contact = () => {
   const form = useRef();
@@ -57,6 +59,11 @@ const Contact = () => {
   }
   return (
     <div className='contact'>
+      <Helmet>
+      <title> ItanFlor-contacto</title>
+      <meta name='keywords' content='Contatti (Contactos en italiano), Informazioni di contatto (Información de contacto en italiano), Modulo di contatto (Formulario de contacto en italiano), Prenotare una lezione (Reservar una clase en italiano), Richieste (Consultas en italiano), Scrivici (Escríbenos en italiano), Orari di contatto (Horarios de contacto en italiano), Supporto clienti (Soporte al cliente en italiano), Domande frequenti (Preguntas frecuentes en italiano), Invio di messaggi (Envío de mensajes en italiano), Informazioni aziendali (Información de la empresa en italiano), Indirizzo e-mail (Dirección de correo electrónico en italiano), Numero di telefono (Número de teléfono en italiano), Chiedi informazioni (Pide información en italiano), Localizzazione (Localización en italiano)'/>
+      <meta name='description' content='¿Tienes alguna pregunta o estás interesado en inscribirte en nuestras clases de italiano? ¡Nos encantaría saber de ti! Nuestro equipo de expertos está listo para brindarte toda la información que necesitas. Ponte en contacto con nosotros a través de nuestro formulario en línea, correo electrónico o número de teléfono proporcionados a continuación. Estamos comprometidos en ayudarte a alcanzar tus metas lingüísticas y estaremos encantados de responder a tus consultas. ¡Esperamos escucharte pronto!' />
+      </Helmet>
       <main className="contact__main">
         <h3 className='contact__main__h3'>PONGÁMONOS EN CONTACTO</h3>
           <form ref={form} onSubmit={handleSubmit} id="form" className="contact__main__form" action="">
