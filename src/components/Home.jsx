@@ -4,8 +4,11 @@ import Items from './Items'
 import Carrousel from './Carrousel'
 import { useState, useEffect } from 'react';
 import Whatsapp from './Whatsapp';
+import ReactPixel from "react-facebook-pixel"
+
 
 const Home = () => {
+  ReactPixel.pageView();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     useEffect(() => {

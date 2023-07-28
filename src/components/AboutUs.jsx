@@ -1,8 +1,10 @@
 import { Helmet } from "react-helmet"
 import Whatsapp from "./Whatsapp"
+import ReactPixel from "react-facebook-pixel"
 
 
 const AboutUs = () => {
+    ReactPixel.pageView();
   return (
     <div className="aboutus">
         <Helmet>

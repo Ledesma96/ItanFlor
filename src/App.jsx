@@ -1,23 +1,22 @@
-
 import './App.css'
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import NavBar from './components/NavBar';
 import Footer from "./components/Footer";
-import Carrousel from "./components/Carrousel"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Info from './components/Info';
-import Items from './components/Items';
 import Contact from './components/Contact';
 import AboutUs from './components/AboutUs';
 
+import ReactPixel from 'react-facebook-pixel';
 
+const options = {
+  autoConfig: true,
+  debug: false,
+};
+
+ReactPixel.init('3421944351449313', null, options);
 
 function App() {
- 
-
-  
-
   return (
     <BrowserRouter>
       <NavBar/>
