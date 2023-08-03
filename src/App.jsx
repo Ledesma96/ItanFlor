@@ -14,7 +14,7 @@ const options = {
   debug: false,
 };
 
-ReactPixel.init('3421944351449313', null, options);
+ReactPixel.init('824213002605364', null, options);
 
 function App() {
   return (
