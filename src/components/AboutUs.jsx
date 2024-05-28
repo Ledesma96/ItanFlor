@@ -11,6 +11,7 @@ const AboutUs = () => {
             <title>ItanFlor-Nosotros</title>
             <meta name="description" content="Descubre nuestro centro de aprendizaje en línea. Ofrecemos clases de italiano personalizadas y dinámicas para todos los niveles, desde principiantes hasta avanzados. Nuestra experiencia y enfoque comunicativo te ayudarán a desarrollar habilidades lingüísticas sólidas mientras te sumerges en la rica cultura italiana. Únete a nosotros y comienza tu viaje hacia la fluidez en italiano hoy mismo" />
             <meta name="keywords" content="Equipo de profesionales, Experiencia en la enseñanza de italiano, Apasionados por la cultura italiana Metodología de enseñanza efectiva, Programas personalizados de aprendizaje, Enfoque comunicativo, Profesores altamente cualificados, Aprendizaje interactivo, Flexibilidad horaria, Ambiente de aprendizaje acogedor,Experiencia internacional en la enseñanza de idiomas, Enfoque práctico y orientado a la conversación, Soporte y seguimiento individualizado, Enseñanza de la gramática y vocabulario italiano,Conexión con la cultura y tradiciones italianas"/>
+            <link rel="canonical" href="https://itanflor.com/"></link>
         </Helmet>
         <main className='aboutus__main'>
             <div className='aboutus__main__div'>
